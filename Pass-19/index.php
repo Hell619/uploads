@@ -1,5 +1,5 @@
 <?php
-include './config.php';
+include 'upload-labs/config.php';
 
 
 $is_upload = false;
