@@ -26,7 +26,7 @@ RUN cd /tmp/ &&\
     git clone https://github.com/Hell619/uploads.git &&\
     rm -rf /var/www/html/* &&\
     mv /tmp/uploads/* /var/www/html/ &&\
-    rm -rf/var/www/html/Pass* &&\
+    rm -rf /var/www/html/Pass* &&\
     chown www-data:www-data -R /var/www/html/ &&\
     rm -rf /tmp/*
 
