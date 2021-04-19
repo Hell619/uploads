@@ -1,6 +1,6 @@
 <?php
-include './config.php';
-include './common.php';
+include 'upload-labs/config.php';
+include 'upload-labs/common.php';
 
 
 $is_upload = false;
